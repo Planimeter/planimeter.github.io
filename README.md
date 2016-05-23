@@ -1,2 +1,2 @@
-# andrewmcwatters.github.io
-From the desk of Andrew McWatters
+# planimeter.github.io
+Hello. We are Planimeter.
