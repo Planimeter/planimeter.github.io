@@ -1,7 +1,8 @@
 body {
   background-color: rgba(31, 35, 36, 1);
   color: rgba(240, 246, 248, 1);
-  font-family: sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 100;
 }
 
 a {
@@ -10,13 +11,19 @@ a {
 
 header > a {
   display: inline-block;
-  margin-bottom: 36px;
+  margin-bottom: 0.5in;
 }
 
 nav ol {
   border-color: rgba(240, 246, 248, .07);
 }
 
-nav li {
+nav li.active {
   border-color: rgba(155, 140, 103, 1);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
 }
