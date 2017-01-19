@@ -1,4 +1,4 @@
-## [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
+# [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
 A 2D game engine built on LÖVE
 <a href="http://www.andrewmcwatters.com/images/grid_engine.png">
   <img src="http://www.andrewmcwatters.com/images/grid_engine.png"
@@ -7,7 +7,7 @@ A 2D game engine built on LÖVE
        style="max-width: 1392px; max-height: 854px">
 </a>
 
-## [lgameframework](https://github.com/Planimeter/lgameframework)
+# [lgameframework](https://github.com/Planimeter/lgameframework)
 Game development framework for Lua
 <a href="http://www.andrewmcwatters.com/images/lgameframework.png">
   <img src="http://www.andrewmcwatters.com/images/lgameframework.png"
@@ -16,11 +16,11 @@ Game development framework for Lua
        style="max-width: 912px; max-height: 734px">
 </a>
 
-# Grid Add-ons
+# Grid add-ons
 ## [grid-docs](https://github.com/Planimeter/grid-docs)
 Grid add-on for generating API documentation
 
-# lgf Add-ons
+# lgf add-ons
 ## [lgf-package](https://github.com/Planimeter/lgf-package)
 Adds live reloading to lgameframework
 
