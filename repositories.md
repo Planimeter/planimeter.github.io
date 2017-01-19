@@ -1,5 +1,5 @@
 ## [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
-A 2D game engine built on LÖVE  
+A 2D game engine built on LÖVE
 <a href="http://www.andrewmcwatters.com/images/grid_engine.png">
   <img src="http://www.andrewmcwatters.com/images/grid_engine.png"
        alt="Grid Engine"
@@ -8,7 +8,7 @@ A 2D game engine built on LÖVE
 </a>
 
 ## [lgameframework](https://github.com/Planimeter/lgameframework)
-Game development framework for Lua  
+Game development framework for Lua
 <a href="http://www.andrewmcwatters.com/images/lgameframework.png">
   <img src="http://www.andrewmcwatters.com/images/lgameframework.png"
        alt="lgameframework"
@@ -17,47 +17,43 @@ Game development framework for Lua
 </a>
 
 # Grid Add-ons
-
 ## [grid-docs](https://github.com/Planimeter/grid-docs)
-Grid add-on for generating API documentation  
+Grid add-on for generating API documentation
 
 # lgf Add-ons
-
-## [lgf-package](https://github.com/Planimeter/lgf-package)  
+## [lgf-package](https://github.com/Planimeter/lgf-package)
 Adds live reloading to lgameframework
 
 # LuaJIT FFI bindings
-
-## [lopenvr](https://github.com/Planimeter/lopenvr)  
+## [lopenvr](https://github.com/Planimeter/lopenvr)
 LuaJIT FFI bindings for OpenVR
-## [lcef](https://github.com/Planimeter/lcef)  
+## [lcef](https://github.com/Planimeter/lcef)
 LuaJIT FFI bindings for CEF
-## [lassimp](https://github.com/Planimeter/lassimp)  
+## [lassimp](https://github.com/Planimeter/lassimp)
 LuaJIT FFI bindings for Assimp
-## [lchipmunk](https://github.com/Planimeter/lchipmunk)  
+## [lchipmunk](https://github.com/Planimeter/lchipmunk)
 LuaJIT FFI bindings for Chipmunk
-## [lopenal](https://github.com/Planimeter/lopenal)  
+## [lopenal](https://github.com/Planimeter/lopenal)
 LuaJIT FFI bindings for OpenAL
-## [lsdl_sound](https://github.com/Planimeter/lsdl_sound)  
+## [lsdl_sound](https://github.com/Planimeter/lsdl_sound)
 LuaJIT FFI bindings for SDL_sound
-## [lfreetype](https://github.com/Planimeter/lfreetype)  
+## [lfreetype](https://github.com/Planimeter/lfreetype)
 LuaJIT FFI bindings for FreeType
-## [ldevil](https://github.com/Planimeter/ldevil)  
+## [ldevil](https://github.com/Planimeter/ldevil)
 LuaJIT FFI bindings for DevIL
-## [lkazmath](https://github.com/Planimeter/lkazmath)  
+## [lkazmath](https://github.com/Planimeter/lkazmath)
 LuaJIT FFI bindings for kazmath
 ## [lopengl](https://github.com/Planimeter/lopengl)
-LuaJIT FFI bindings for OpenGL  
+LuaJIT FFI bindings for OpenGL
 ## [lsdl](https://github.com/Planimeter/lsdl)
-LuaJIT FFI bindings for SDL 2.0  
+LuaJIT FFI bindings for SDL 2.0
 ## [lphysicsfs](https://github.com/Planimeter/lphysicsfs)
-LuaJIT FFI bindings for PhysicsFS  
+LuaJIT FFI bindings for PhysicsFS
 ## [lffiutils](https://github.com/Planimeter/lffiutils)
-Utilities for generating LuaJIT FFI bindings  
+Utilities for generating LuaJIT FFI bindings
 
 # Lua libraries
-
 ## [common](https://github.com/Planimeter/common)
-Common game development classes  
+Common game development classes
 ## [lauxlib](https://github.com/Planimeter/lauxlib)
-Lua 5.1.5 Auxiliary Library  
+Lua 5.1.5 Auxiliary Library
