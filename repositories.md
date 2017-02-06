@@ -25,6 +25,8 @@ Grid add-on for generating API documentation
 Adds live reloading to lgameframework
 
 # LuaJIT FFI bindings
+## [lhllib](https://github.com/Planimeter/lhllib)
+LuaJIT FFI bindings for HLLib
 ## [lopenvr](https://github.com/Planimeter/lopenvr)
 LuaJIT FFI bindings for OpenVR
 ## [lcef](https://github.com/Planimeter/lcef)
