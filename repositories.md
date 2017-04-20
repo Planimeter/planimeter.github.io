@@ -21,6 +21,8 @@ Game development framework for Lua
 Grid add-on for generating API documentation
 
 # lgf add-ons
+## [lgf-conf](https://github.com/Planimeter/lgf-conf)
+lgameframework configuration file
 ## [lgf-package](https://github.com/Planimeter/lgf-package)
 Adds live reloading to lgameframework
 
