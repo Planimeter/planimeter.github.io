@@ -12,6 +12,8 @@ a {
 header > a {
   display: inline-block;
   margin-bottom: 0.5in;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
 }
 
 nav ol {
