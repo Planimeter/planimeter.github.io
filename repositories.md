@@ -56,6 +56,10 @@ LuaJIT FFI bindings for PhysicsFS
 ## [lffiutils](https://github.com/Planimeter/lffiutils)
 Utilities for generating LuaJIT FFI bindings
 
+# LÖVE add-ons
+## [love-graphics](https://github.com/Planimeter/love-graphics)
+Graphics function overrides for LÖVE 0.10.2 to improve Retina/High DPI support
+
 # Lua libraries
 ## [common](https://github.com/Planimeter/common)
 Common game development classes
