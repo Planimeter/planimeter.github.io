@@ -1,5 +1,5 @@
 # [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
-Game engine for Lua
+Game engine for Lua  
 <a href="http://www.andrewmcwatters.com/images/grid_engine.png">
   <img src="http://www.andrewmcwatters.com/images/grid_engine.png"
        alt="Grid Engine"
@@ -8,7 +8,7 @@ Game engine for Lua
 </a>
 
 # [lgameframework](https://github.com/Planimeter/lgameframework)
-Game development framework for Lua
+Game development framework for Lua  
 <a href="http://www.andrewmcwatters.com/images/lgameframework.png">
   <img src="http://www.andrewmcwatters.com/images/lgameframework.png"
        alt="lgameframework"
@@ -27,6 +27,8 @@ lgameframework configuration file
 Adds live reloading to lgameframework
 
 # LuaJIT FFI bindings
+## [lenet](https://github.com/Planimeter/lenet)
+LuaJIT FFI bindings for ENet
 ## [lhllib](https://github.com/Planimeter/lhllib)
 LuaJIT FFI bindings for HLLib
 ## [lopenvr](https://github.com/Planimeter/lopenvr)
