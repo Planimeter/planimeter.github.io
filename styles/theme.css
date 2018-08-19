@@ -1,31 +1,12 @@
 body {
-  background-color: rgba(31, 35, 36, 1);
-  color: rgba(240, 246, 248, 1);
-  font-family: 'Proxima Nova', sans-serif;
-  font-weight: 100;
+  background-color: #fafafa;
+  color: #121212;
 }
 
 a {
-  color: rgba(155, 140, 103, 1);
+  color: #a18c6b;
 }
 
-header > a {
-  display: inline-block;
-  margin-bottom: 0.5in;
-  padding-bottom: 7.5px;
-  padding-top: 7.5px;
-}
-
-nav ol {
-  border-color: rgba(240, 246, 248, .07);
-}
-
-nav li.active {
-  border-color: rgba(155, 140, 103, 1);
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 300;
+a:hover {
+  color: #75644a;
 }
