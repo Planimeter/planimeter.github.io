@@ -1,4 +1,4 @@
-body {
+body, #root {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -24,6 +24,8 @@ footer {
 }
 
 header {
+  align-items: center;
+  display: flex;
   margin-bottom: 0;
 }
 
@@ -34,13 +36,4 @@ main {
 
 footer {
   margin-top: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  text-decoration: underline;
 }
