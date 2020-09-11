@@ -1,6 +1,8 @@
 main {
-  align-items: flex-start;
   display: flex;
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
 }
