@@ -6,3 +6,10 @@ main {
   justify-content: center;
   flex-direction: column;
 }
+
+@media (min-width: 992px) {
+  main {
+    margin-top: 1in;
+    margin-bottom: 1in;
+  }
+}
