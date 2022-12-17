@@ -15,7 +15,7 @@
         "id": 3,
         "name": "Unreal Engine",
         "type": "Game engine",
-        "primary_language": "C++",
+        "primary_language": "C++"
     },
     {
         "id": 4,
