@@ -200,75 +200,79 @@ var Compare = function (_React$Component) {
               { className: "pt-5" },
               "Loading..."
             ) : React.createElement(
-              "table",
-              { className: "table pt-5" },
+              "div",
+              { classname: "pt-5" },
               React.createElement(
-                "thead",
-                null,
+                "table",
+                { className: "table" },
                 React.createElement(
-                  "tr",
+                  "thead",
                   null,
                   React.createElement(
-                    "th",
-                    { scope: "col" },
-                    "#"
-                  ),
-                  React.createElement(
-                    "th",
-                    { scope: "col" },
-                    "Name"
-                  ),
-                  React.createElement(
-                    "th",
-                    { scope: "col" },
-                    "Type"
-                  ),
-                  React.createElement(
-                    "th",
-                    { scope: "col" },
-                    "Primary Language"
-                  ),
-                  React.createElement(
-                    "th",
-                    { scope: "col" },
-                    "Perspective"
-                  )
-                )
-              ),
-              React.createElement(
-                "tbody",
-                null,
-                items.map(function (item) {
-                  return React.createElement(
                     "tr",
-                    { key: item.id },
+                    null,
                     React.createElement(
                       "th",
-                      { scope: "row" },
-                      item.id
+                      { scope: "col" },
+                      "#"
                     ),
                     React.createElement(
-                      "td",
-                      null,
-                      item.name
+                      "th",
+                      { scope: "col" },
+                      "Name"
                     ),
                     React.createElement(
-                      "td",
-                      null,
-                      item.type
+                      "th",
+                      { scope: "col" },
+                      "Type"
                     ),
                     React.createElement(
-                      "td",
-                      null,
-                      item.primary_language
+                      "th",
+                      { scope: "col" },
+                      "Primary Language"
                     ),
                     React.createElement(
-                      "td",
-                      null,
-                      item.perspective
+                      "th",
+                      { scope: "col" },
+                      "Perspective"
                     )
-                  );
-                })
+                  )
+                ),
+                React.createElement(
+                  "tbody",
+                  null,
+                  items.map(function (item) {
+                    return React.createElement(
+                      "tr",
+                      { key: item.id },
+                      React.createElement(
+                        "th",
+                        { scope: "row" },
+                        item.id
+                      ),
+                      React.createElement(
+                        "td",
+                        null,
+                        item.name
+                      ),
+                      React.createElement(
+                        "td",
+                        null,
+                        item.type
+                      ),
+                      React.createElement(
+                        "td",
+                        null,
+                        item.primary_language
+                      ),
+                      React.createElement(
+                        "td",
+                        null,
+                        item.perspective
+                      )
+                    );
+                  })
+                )
               )
             )
           )

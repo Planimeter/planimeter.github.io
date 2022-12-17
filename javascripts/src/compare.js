@@ -107,28 +107,30 @@ class Compare extends React.Component {
             ) : !isLoaded ? (
               <div className="pt-5">Loading...</div>
             ) : (
-              <table className="table pt-5">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Type</th>
-                    <th scope="col">Primary Language</th>
-                    <th scope="col">Perspective</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {items.map((item) => (
-                    <tr key={item.id}>
-                      <th scope="row">{item.id}</th>
-                      <td>{item.name}</td>
-                      <td>{item.type}</td>
-                      <td>{item.primary_language}</td>
-                      <td>{item.perspective}</td>
+              <div classname="pt-5">
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Primary Language</th>
+                      <th scope="col">Perspective</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {items.map((item) => (
+                      <tr key={item.id}>
+                        <th scope="row">{item.id}</th>
+                        <td>{item.name}</td>
+                        <td>{item.type}</td>
+                        <td>{item.primary_language}</td>
+                        <td>{item.perspective}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             )}
           </div>
         </div>
