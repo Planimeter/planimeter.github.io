@@ -42,7 +42,7 @@ class Compare extends React.Component {
           <div>Error: {error.message}</div>
         ) : !isLoaded ? (
           <div>Loading...</div>
-         ) : (
+        ) : (
           <ul>
             {items.map(item => (
               <li key={item.id}>
@@ -50,7 +50,7 @@ class Compare extends React.Component {
               </li>
             ))}
           </ul>
-        );
+      )}
       </React.Fragment>
     );
   }

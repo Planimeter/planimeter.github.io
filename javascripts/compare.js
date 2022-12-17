@@ -25,7 +25,7 @@ var Compare = function (_React$Component) {
   }
 
   _createClass(Compare, [{
-    key: 'componentDidMount',
+    key: "componentDidMount",
     value: function componentDidMount() {
       var _this2 = this;
 
@@ -49,7 +49,7 @@ var Compare = function (_React$Component) {
       });
     }
   }, {
-    key: 'render',
+    key: "render",
     value: function render() {
       var _state = this.state,
           error = _state.error,
@@ -60,14 +60,37 @@ var Compare = function (_React$Component) {
         React.Fragment,
         null,
         React.createElement(
-          'h1',
+          "h1",
           null,
-          'Compare game software'
+          "Compare game software"
         ),
-        React.createElement(
-          'p',
+        error ? React.createElement(
+          "div",
           null,
-          'Coming soon.'
+          "Error: ",
+          error.message
+        ) : !isLoaded ? React.createElement(
+          "div",
+          null,
+          "Loading..."
+        ) : React.createElement(
+          "ul",
+          null,
+          items.map(function (item) {
+            return React.createElement(
+              "li",
+              { key: item.id },
+              item.name,
+              React.createElement("br", null),
+              React.createElement(
+                "span",
+                { className: "text-muted" },
+                "(",
+                item.type,
+                ")"
+              )
+            );
+          })
         )
       );
     }
