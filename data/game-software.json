@@ -1,0 +1,32 @@
+{
+    {
+        "name": "Planimeter Game Engine 2D",
+        "type": "Game engine",
+        "primary_language": "Lua"
+    },
+    {
+        "name": "Planimeter Game Framework",
+        "type": "Game framework",
+        "primary_language": "Lua"
+    },
+    {
+        "name": "Unreal Engine",
+        "type": "Game engine",
+        "primary_language": "C++",
+    },
+    {
+        "name": "Unity",
+        "type": "Game engine",
+        "primary_language": "C#"
+    },
+    {
+        "name": "Godot Engine",
+        "type": "Game engine",
+        "primary_language": "GDScript"
+    },
+    {
+        "name": "LÖVE",
+        "type": "Game framework",
+        "primary_language": "Lua"
+    }
+}
