@@ -1,0 +1,29 @@
+{
+  "name": "planimeter.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hello. We are Planimeter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel --watch javascripts/src --out-dir javascripts/. --presets react-app/prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planimeter/planimeter.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planimeter/planimeter.github.io/issues"
+  },
+  "homepage": "https://github.com/Planimeter/planimeter.github.io#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "engines": {
+    "node": "~19.3.0"
+  }
+}
