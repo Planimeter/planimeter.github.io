@@ -57,6 +57,7 @@ class Compare extends React.Component {
                 <th scope="col">Name</th>
                 <th scope="col">Type</th>
                 <th scope="col">Primary Language</th>
+                <th scope="col">Perspective</th>
               </tr>
             </thead>
             <tbody>
@@ -83,6 +84,7 @@ class Compare extends React.Component {
                 <td>{item.name}</td>
                 <td>{item.type}</td>
                 <td>{item.primary_language}</td>
+                <td>{item.perspective}</td>
                </tr>
              ))}
             </tbody>

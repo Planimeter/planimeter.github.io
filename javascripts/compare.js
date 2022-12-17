@@ -109,6 +109,11 @@ var Compare = function (_React$Component) {
                 "th",
                 { scope: "col" },
                 "Primary Language"
+              ),
+              React.createElement(
+                "th",
+                { scope: "col" },
+                "Perspective"
               )
             )
           ),
@@ -138,6 +143,11 @@ var Compare = function (_React$Component) {
                   "td",
                   null,
                   item.primary_language
+                ),
+                React.createElement(
+                  "td",
+                  null,
+                  item.perspective
                 )
               );
             })

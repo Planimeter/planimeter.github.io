@@ -3,36 +3,42 @@
         "id": 1,
         "name": "Planimeter Game Engine 2D",
         "type": "Game engine",
-        "primary_language": "Lua"
+        "primary_language": "Lua",
+        "perspective": "2D"
     },
     {
         "id": 2,
         "name": "Planimeter Game Framework",
         "type": "Game framework",
-        "primary_language": "Lua"
+        "primary_language": "Lua",
+        "perspective": "2D, 3D"
     },
     {
         "id": 3,
         "name": "Unreal Engine",
         "type": "Game engine",
-        "primary_language": "C++"
+        "primary_language": "C++",
+        "perspective": "2D, 3D"
     },
     {
         "id": 4,
         "name": "Unity",
         "type": "Game engine",
-        "primary_language": "C#"
+        "primary_language": "C#",
+        "perspective": "2D, 3D"
     },
     {
         "id": 5,
         "name": "Godot Engine",
         "type": "Game engine",
-        "primary_language": "GDScript"
+        "primary_language": "GDScript",
+        "perspective": "2D, 3D"
     },
     {
         "id": 6,
         "name": "LÖVE",
         "type": "Game framework",
-        "primary_language": "Lua"
+        "primary_language": "Lua",
+        "perspective": "2D"
     }
 ]
