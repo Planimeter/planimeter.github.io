@@ -184,6 +184,104 @@ var Compare = function (_React$Component) {
                     "3D"
                   )
                 )
+              ),
+              React.createElement(
+                "p",
+                { className: "mb-2" },
+                "Multiplayer Features"
+              ),
+              React.createElement(
+                "p",
+                null,
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "multiplayer",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "multiplayer" },
+                    "Multiplayer"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "client-side-prediction",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    {
+                      className: "form-check-label",
+                      "for": "client-side-prediction"
+                    },
+                    "Client-side prediction"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "client-side-prediction",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    {
+                      className: "form-check-label",
+                      "for": "client-side-prediction"
+                    },
+                    "Reconciliation"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "client-side-prediction",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    {
+                      className: "form-check-label",
+                      "for": "client-side-prediction"
+                    },
+                    "Entity interpolation"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "lag-compensation",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "lag-compensation" },
+                    "Lag compensation"
+                  )
+                )
               )
             )
           ),

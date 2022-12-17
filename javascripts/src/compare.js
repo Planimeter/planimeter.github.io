@@ -99,6 +99,78 @@ class Compare extends React.Component {
                   </label>
                 </div>
               </p>
+              <p className="mb-2">Multiplayer Features</p>
+              <p>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="multiplayer"
+                    disabled
+                  />
+                  <label className="form-check-label" for="multiplayer">
+                    Multiplayer
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="client-side-prediction"
+                    disabled
+                  />
+                  <label
+                    className="form-check-label"
+                    for="client-side-prediction"
+                  >
+                    Client-side prediction
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="client-side-prediction"
+                    disabled
+                  />
+                  <label
+                    className="form-check-label"
+                    for="client-side-prediction"
+                  >
+                    Reconciliation
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="client-side-prediction"
+                    disabled
+                  />
+                  <label
+                    className="form-check-label"
+                    for="client-side-prediction"
+                  >
+                    Entity interpolation
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="lag-compensation"
+                    disabled
+                  />
+                  <label className="form-check-label" for="lag-compensation">
+                    Lag compensation
+                  </label>
+                </div>
+              </p>
             </div>
           </div>
           <div className="col-md-9 col-xl-10">
