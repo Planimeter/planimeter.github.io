@@ -1,4 +1,4 @@
-{
+[
     {
         "id": 1,
         "name": "Planimeter Game Engine 2D",
@@ -35,4 +35,4 @@
         "type": "Game framework",
         "primary_language": "Lua"
     }
-}
+]
