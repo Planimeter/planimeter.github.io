@@ -14,12 +14,48 @@ var Compare = function (_React$Component) {
   function Compare(props) {
     _classCallCheck(this, Compare);
 
-    return _possibleConstructorReturn(this, (Compare.__proto__ || Object.getPrototypeOf(Compare)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Compare.__proto__ || Object.getPrototypeOf(Compare)).call(this, props));
+
+    _this.state = {
+      error: null,
+      isLoaded: false,
+      items: []
+    };
+    return _this;
   }
 
   _createClass(Compare, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      fetch("/data/game-software.json").then(function (res) {
+        return res.json();
+      }).then(function (result) {
+        _this2.setState({
+          isLoaded: true,
+          // items: result.items
+          items: result
+        });
+      },
+      // Note: it's important to handle errors here
+      // instead of a catch() block so that we don't swallow
+      // exceptions from actual bugs in components.
+      function (error) {
+        _this2.setState({
+          isLoaded: true,
+          error: error
+        });
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
+      var _state = this.state,
+          error = _state.error,
+          isLoaded = _state.isLoaded,
+          items = _state.items;
+
       return React.createElement(
         React.Fragment,
         null,
