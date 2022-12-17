@@ -201,7 +201,7 @@ var Compare = function (_React$Component) {
               "Loading..."
             ) : React.createElement(
               "div",
-              { classname: "pt-5" },
+              { className: "pt-5", style: { marginTop: "-.5rem" } },
               React.createElement(
                 "table",
                 { className: "table" },

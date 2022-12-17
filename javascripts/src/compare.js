@@ -107,7 +107,7 @@ class Compare extends React.Component {
             ) : !isLoaded ? (
               <div className="pt-5">Loading...</div>
             ) : (
-              <div classname="pt-5">
+              <div className="pt-5" style={{ marginTop: "-.5rem" }}>
                 <table className="table">
                   <thead>
                     <tr>
