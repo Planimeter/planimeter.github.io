@@ -73,24 +73,75 @@ var Compare = function (_React$Component) {
           "div",
           null,
           "Loading..."
-        ) : React.createElement(
-          "ul",
-          null,
-          items.map(function (item) {
-            return React.createElement(
-              "li",
-              { key: item.id },
-              item.name,
-              React.createElement("br", null),
+        ) :
+        // <ul>
+        //   {items.map(item => (
+        //     <li key={item.id}>
+        //       {item.name}<br /><span className="text-muted">({item.type})</span>
+        //     </li>
+        //   ))}
+        // </ul>
+        React.createElement(
+          "table",
+          { className: "table" },
+          React.createElement(
+            "thead",
+            null,
+            React.createElement(
+              "tr",
+              null,
               React.createElement(
-                "span",
-                { className: "text-muted" },
-                "(",
-                item.type,
-                ")"
+                "th",
+                { scope: "col" },
+                "#"
+              ),
+              React.createElement(
+                "th",
+                { scope: "col" },
+                "Name"
+              ),
+              React.createElement(
+                "th",
+                { scope: "col" },
+                "Type"
+              ),
+              React.createElement(
+                "th",
+                { scope: "col" },
+                "Primary Language"
               )
-            );
-          })
+            )
+          ),
+          React.createElement(
+            "tbody",
+            null,
+            items.map(function (item) {
+              return React.createElement(
+                "tr",
+                { key: item.id },
+                React.createElement(
+                  "th",
+                  { scope: "row" },
+                  item.id
+                ),
+                React.createElement(
+                  "td",
+                  null,
+                  item.name
+                ),
+                React.createElement(
+                  "td",
+                  null,
+                  item.type
+                ),
+                React.createElement(
+                  "td",
+                  null,
+                  item.primary_language
+                )
+              );
+            })
+          )
         )
       );
     }
