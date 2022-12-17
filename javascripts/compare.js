@@ -192,16 +192,16 @@ var Compare = function (_React$Component) {
             { className: "col-md-9 col-xl-10" },
             error ? React.createElement(
               "div",
-              null,
+              { className: "pt-5" },
               "Error: ",
               error.message
             ) : !isLoaded ? React.createElement(
               "div",
-              null,
+              { className: "pt-5" },
               "Loading..."
             ) : React.createElement(
               "table",
-              { className: "table" },
+              { className: "table pt-5" },
               React.createElement(
                 "thead",
                 null,

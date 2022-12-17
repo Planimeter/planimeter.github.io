@@ -103,11 +103,11 @@ class Compare extends React.Component {
           </div>
           <div className="col-md-9 col-xl-10">
             {error ? (
-              <div>Error: {error.message}</div>
+              <div className="pt-5">Error: {error.message}</div>
             ) : !isLoaded ? (
-              <div>Loading...</div>
+              <div className="pt-5">Loading...</div>
             ) : (
-              <table className="table">
+              <table className="table pt-5">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
