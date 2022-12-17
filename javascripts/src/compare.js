@@ -106,11 +106,35 @@ class Compare extends React.Component {
                     className="form-check-input"
                     type="checkbox"
                     value=""
-                    id="multiplayer"
+                    id="local-multiplayer"
                     disabled
                   />
-                  <label className="form-check-label" for="multiplayer">
-                    Multiplayer
+                  <label className="form-check-label" for="local-multiplayer">
+                    Local multiplayer
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="local-multiplayer"
+                    disabled
+                  />
+                  <label className="form-check-label" for="local-multiplayer">
+                    Split-screen support
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="internet-play"
+                    disabled
+                  />
+                  <label className="form-check-label" for="internet-play">
+                    Internet play
                   </label>
                 </div>
                 <div className="form-check">

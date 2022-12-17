@@ -200,13 +200,45 @@ var Compare = function (_React$Component) {
                     className: "form-check-input",
                     type: "checkbox",
                     value: "",
-                    id: "multiplayer",
+                    id: "local-multiplayer",
                     disabled: true
                   }),
                   React.createElement(
                     "label",
-                    { className: "form-check-label", "for": "multiplayer" },
-                    "Multiplayer"
+                    { className: "form-check-label", "for": "local-multiplayer" },
+                    "Local multiplayer"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "local-multiplayer",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "local-multiplayer" },
+                    "Split-screen support"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "internet-play",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "internet-play" },
+                    "Internet play"
                   )
                 ),
                 React.createElement(
