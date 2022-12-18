@@ -313,6 +313,54 @@ var Compare = function (_React$Component) {
                     { className: "form-check-label", "for": "lag-compensation" },
                     "Lag compensation"
                   )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "server-browser",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "server-browser" },
+                    "Server browser"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "text-chat",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "text-chat" },
+                    "Text chat"
+                  )
+                ),
+                React.createElement(
+                  "div",
+                  { className: "form-check" },
+                  React.createElement("input", {
+                    className: "form-check-input",
+                    type: "checkbox",
+                    value: "",
+                    id: "voice-chat",
+                    disabled: true
+                  }),
+                  React.createElement(
+                    "label",
+                    { className: "form-check-label", "for": "voice-chat" },
+                    "Voice chat"
+                  )
                 )
               )
             )

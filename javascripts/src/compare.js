@@ -194,6 +194,42 @@ class Compare extends React.Component {
                     Lag compensation
                   </label>
                 </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="server-browser"
+                    disabled
+                  />
+                  <label className="form-check-label" for="server-browser">
+                    Server browser
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="text-chat"
+                    disabled
+                  />
+                  <label className="form-check-label" for="text-chat">
+                    Text chat
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="voice-chat"
+                    disabled
+                  />
+                  <label className="form-check-label" for="voice-chat">
+                    Voice chat
+                  </label>
+                </div>
               </p>
             </div>
           </div>
